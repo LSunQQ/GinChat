@@ -1,0 +1,15 @@
+mysql:
+  host: 172.24.87.200
+  port: 3306
+  username: root
+  password: 123456
+  database: ginchat
+  charset: utf8mb4
+  loc: Local
+
+redis:
+  addr: 172.24.87.200:6379
+  password: ""
+  DB: 3
+  poolSize: 30
+  minIdleConn: 30
